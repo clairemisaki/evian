@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     font-family: "Courier New", Courier, monospace;
+    font-size: 2.2vw;
 /*    background-image: url("/media/fiveish_tile.png");*/
     
     background-image: url("/media/3dgifmaker49423.gif");
@@ -29,7 +30,7 @@ a {
 .yt-embed-holder{
     display: flex;
 /*    justify-content: center;*/
-    width: 50%;
+    width: 100%;
     overflow: hidden;
     aspect-ratio: 16/9;
     pointer-events: none;
@@ -57,5 +58,5 @@ a {
 }
 
 .logos img{
-    width: 15%;
+    width: 40%;
 }
