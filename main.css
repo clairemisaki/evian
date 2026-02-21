@@ -2,7 +2,6 @@ body {
     background-color: black;
     color: white;
     font-family: "Courier New", Courier, monospace;
-    font-size: 2.2vw;
 /*    background-image: url("/media/fiveish_tile.png");*/
     
     background-image: url("/media/3dgifmaker49423.gif");
@@ -30,11 +29,12 @@ a {
 .yt-embed-holder{
     display: flex;
 /*    justify-content: center;*/
-    width: 100%;
+    width: 50%;
     overflow: hidden;
     aspect-ratio: 16/9;
     pointer-events: none;
     padding:1%;
+    padding-top: 2%;
     
 /*    padding-top:20%;*/
     }
@@ -54,9 +54,28 @@ a {
 
 .logos{
     text-align: center; 
-    padding: 2%;
+    padding: 1%;
 }
 
 .logos img{
-    width: 40%;
+    width: 15%;
+}
+
+
+
+/*mobile adjustments*/
+
+@media (max-width:700px){
+    body {
+        font-size:3.4vw;
+    }
+    
+    .yt-embed-holder {
+            width: 100%;
+    }
+    
+    .logos img {
+            width: 45%;
+    }
+
 }
