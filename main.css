@@ -1,8 +1,61 @@
 body {
-  background-color: lightgrey;
-  color: blue; /* Default text color for the page */
-     }
+    background-color: black;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+/*    background-image: url("/media/fiveish_tile.png");*/
+    
+    background-image: url("/media/3dgifmaker49423.gif");
+/*    background-repeat:repeat;*/
+    background-position: center;
+    background-size: 100%;
 
-h1 {
-    color: green; /* Specific color for h1 elements */
+}
+
+a {
+    color: #59FF00;
+    text-transform: lowercase;
+}
+
+.links {
+    text-align: center;
+}
+
+.video-center-box {
+    display: flex;
+    justify-content: center;
+/*    background-image: url("media/evian_logo.png");*/
+}
+
+.yt-embed-holder{
+    display: flex;
+/*    justify-content: center;*/
+    width: 50%;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    pointer-events: none;
+    padding:1%;
+    
+/*    padding-top:20%;*/
     }
+
+.yt-embed-holder iframe{
+    width: 300%;
+    height: 100%;
+    overflow: hidden;
+/*    margin-left: -100%;*/
+}
+
+.video-info{
+    text-align: center;
+/*    width: 50%;*/
+/*    overflow: hidden;*/
+}
+
+.logos{
+    text-align: center; 
+    padding: 2%;
+}
+
+.logos img{
+    width: 15%;
+}
