@@ -1,0 +1,8 @@
+body {
+  background-color: lightgrey;
+  color: blue; /* Default text color for the page */
+     }
+
+h1 {
+    color: green; /* Specific color for h1 elements */
+    }
