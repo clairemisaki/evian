@@ -32,7 +32,7 @@ a {
     width: 50%;
     overflow: hidden;
     aspect-ratio: 16/9;
-    pointer-events: none;
+/*    pointer-events: none;*/
     padding:1%;
     padding-top: 2%;
     
@@ -40,7 +40,6 @@ a {
     }
 
 .yt-embed-holder iframe{
-    display: block;
     width: 300%;
     height: 100%;
     overflow: hidden;
@@ -63,9 +62,7 @@ a {
 }
 
 
-
 /*mobile adjustments*/
-
 @media (max-width:700px){
     body {
         font-size:5vw;
@@ -78,5 +75,5 @@ a {
     .logos img {
             width: 45%;
     }
-
+    
 }
