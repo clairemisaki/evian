@@ -61,6 +61,10 @@ a {
     width: 15%;
 }
 
+.error-404 {
+    justify-content: center;
+    text-align: center;
+}
 
 /*mobile adjustments*/
 @media (max-width:700px){
